@@ -32,7 +32,6 @@
             this.lblTitulo = new System.Windows.Forms.Label();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnMostrar = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,21 +70,11 @@
             this.btnMostrar.UseVisualStyleBackColor = true;
             this.btnMostrar.Click += new System.EventHandler(this.btnMostrar_Click);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(356, 19);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(39, 13);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "HOLA ";
-            // 
             // frmMostrarGrupo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(600, 370);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnMostrar);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.lblTitulo);
@@ -105,6 +94,5 @@
         private System.Windows.Forms.Label lblTitulo;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnMostrar;
-        private System.Windows.Forms.Label label1;
     }
 }
